@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Desktop</title>
+    <link rel="shortcut icon" href="img/nailyk.png" />
+    <link rel="stylesheet" href="css/knacss.min.css">
+    <link rel="stylesheet" href="css/indexSansGrid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+  </head>
+
+<style>
+  body{background-color:rgb(37, 37, 38)}
+  h1,h2,h3,p,hr{color:white}
+</style>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">GIT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="github.html">GitHub</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gitdesktop.html">GitHub Desktop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="git.html">Git</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<body>
+
+
+<div class="container text-center">
+  <h1>GitHub Desktop</h1>
+  <img src="image/github-desktop-logo.png" alt="logo github desktop" width="25%" height="25%">
+  <br><br>
+</div>
+<div class="container text-left">
+  <div class="row">
+    <div class="col-6">
+      <img src="image/gitdesktop-home.png" alt="page principal github desktop" width="100%" height="100%">
+    </div>
+    <div class="col-6">
+      <h3>
+        <br>
+        <li><strong>0.</strong> Connexion à GitHub</li>
+        <li><strong>1.</strong> Repository en cours</li>
+        <li><strong>2.</strong> Changement effectué sur les fichiers</li>
+        <li><strong>3.</strong> Ajouter le commit (nom / description)</li>
+        <li><strong>4.</strong> Branche en cours et création de branches</li>
+        <li><strong>5.</strong> Fetch et Push</li>
+        <li><strong>6.</strong> Visualisation des changements sur les fichiers</li>
+        
+        </h3>
+    </div>
+  </div>
+</div>
+
+<br>
+<div class="container text-left">
+  <div class="row">
+    <hr>
+    <div class="col">
+      <h2>0. Connexion à GitHub</h2>
+
+      <div class="container text-justify">
+        <div class="row">
+          <div class="col">
+            <p>Avant de commencer, il est important de faire le liens entre notre repository locaux et ceux en ligne. Il faut donc une connexion entre GitHub Desktop et GitHub. Pour se faire il faut aller dans les paramètre de Github Desktop en allant dans File => Options => Account</p>
+          </div>
+          <div class="col-6">
+            <img src="image/login-git.png" alt="login github desktop">
+          </div>
+        </div>
+          <div class="col">
+            <p>On peut ensuite faire Sign-in et un lien nous emmenera directement sur Internet où nous devrons nous connecter à notre compte GitHub. </p>
+          </div>
+          <div class="col-6">
+            <img src="image/browser-guit.png" alt="redirection github desktop vers github">
+          </div>
+        </div>
+
+<br>
+
+
+<br>
+<div class="container text-left">
+  <div class="row">
+    <hr>
+    <div class="col">
+      <h2>1. Repository en cours</h2>
+
+      <div class="container text-justify">
+        <div class="row">
+          <div class="col">
+            <p>Ceci permet de connaître sur quel projet nous sommes entrain de travailler. On peut ajouter plusieurs projets en simultané utilisant Git et naviguer entre chaquer via ce menu.</p>
+          </div>
+          <div class="col-6">
+            <img src="image/github-desktop-repository.png" alt="repository github desktop">
+          </div>
+        </div>
+      </div>
+
+<br>
+
+
+
+      <div class="container text-justify">
+        <div class="row">
+          <div class="col">
+            <p>On peut y créer directement un repository, en cloner un depuis github directement ou encore ajouter git à un projet déjà existant depuis le bouton "ADD".</p>
+          </div>
+          <div class="col-6">
+            <img src="image/github-desktop-repository-Add.png" alt="bouton Add repository github desktop">
+          </div>
+        </div>
+      </div>
+<br>
+<hr>
+      <h2>2. Changement effectué sur les fichiers</h2>
+
+      <div class="container text-justify">
+        <div class="row">
+          <div class="col">
+            <img src="image/github-desktop-changed-files.png" alt="affichage de la partie Changed Files">
+
+          </div>
+          <div class="col-6">
+            <p>On voit ici tout les fichiers qui ont subit une modification depuis le dernier Commit. Toutes les modifications s'afficherons ici après un CTRL+S.</p>
+            <p>On peut séléctionner les fichiers sur lesquels nous ferons notre Commit.</p>            
+          </div>
+        </div>
+      </div>
+
+
+
+<br>
+<hr>
+<h2>3. Ajouter le commit (nom / description)</h2>
+
+<div class="container text-justify">
+  <div class="row">
+    <div class="col">
+      <p>Cette partie permet de mettre à jour l'historique du projet. On peut lui donner un nom et une description.</p>
+    </div>
+    <div class="col-6">
+      <img src="image/github-desktop-Commit.png" alt="affichage de la partie Commit">
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container text-justify">
+  <div class="row">
+    <div class="col">
+      <p>Il est important de mettre des noms pertinant pour pouvoir differencier les modifications, les ajouts de fonctionnalité...</p>      
+    </div>
+    <div class="col-6">
+
+      <img src="image/github-desktop-history.png" alt="vue History">
+    </div>
+  </div>
+</div>
+
+<br>
+<h3>History</h3>
+
+<div class="container text-justify">
+  <div class="row">
+    <div class="col">
+      <p>History est l'endroit où on peut retrouver tout les anciens Commit effectuer pour voir les changements effectués</p>     
+    </div>
+    <div class="col-6">
+
+      <img src="image/github-desktop-repository-history.png" alt="vue History">
+    </div>
+  </div>
+</div>
+
+<br>
+<hr>
+<h2>4. Branche en cours et création de branches</h2>
+<br>
+<div class="container text-justify">
+  <div class="row">
+    <div class="col">
+      <img src="image/github-desktop-repository-history.png" alt="vue History">
+    </div>
+    <div class="col-6">
+      <p>Les branches sont des copies du programme principal où l'on peut soit ajouté des fonctionnalités pour la fusionnée avec la branche principal plus tard, soit l'utiliser pour faire des tests sans impacter le code principal. Il permet aussi de travailler à plusieurs. Comme sur l'image, on peut créer une branche pour chaque personne qui travaile sur le projet. De ce fait, tout le monde peut travailler sur sa partie sans risquer d'impacter les autres.</p><p> <strong>/!\ Si une personne push son programme sur GitHub, les modifications qu'il n'a pas mais qui sont sur GitHub seront écrasé /!\</strong> </p>   
+    </div>
+  </div>
+
+  <br>
+  <hr>
+  <h2>5. Fetch et Push</h2>
+  <br>
+  <div class="container text-justify">
+    <div class="row">
+      <div class="col">
+        <p>Ce sont les boutons qui permettent de lié GitHub Desktop à GitHub. Lorsque le compte est connécté. Ce bouton permet d'envoyer et de recevoir les modifications. Le bouton PUSH s'affiche quand une modification à été apporté et non envoyé sur GitHub. A l'inverse, quand le bouton FETCH est affiché, on peut recevoir la dernière version du programme</p><p><strong>/!\ Les données envoyées / recus dépendent de la branche sur la quelle vous êtes. Si vous êtes sur la branche 1, vous enverer les données sur la branche 1. Donc si quelqu'un d'autre travail sur la branche 2, il ne pourra pas recuperer les données juste envoyé. Il faudra qu'il change de branche. /!\</strong></p>   
+      </div>
+      <div class="col-6">
+        <img src="image/github-desktop-repository-history.png" alt="vue History">
+      </div>
+    </div>
+
+    <br>
+    <hr>
+    <h2>6. Visualisation des changements sur les fichiers</h2>
+    <br>
+    <div class="container text-justify">
+      <div class="row">
+        <div class="col">
+          <img src="image/github-desktop-repository-history.png" alt="vue History">
+          </div>
+        <div class="col-6">
+          <p>Cette partie permet de voir les modifications qui ont été apporté sur un fichier. En vert s'affiche les choses qui ont été ajouté, en rouge, les choses supprimés. On peut cirucle rentre les différents fichiers modifié sur la gauche de cette partie.</p>   
+        </div>
+      </div>
+      <br><br>
+</div>
+  </div>
+  <div class="col-1"></div>
+  </div>
+</div>
+
+<div class="footer-basic">
+  <div class="container text-center">
+  <footer>
+          <ul class="list-inline">
+          <li class="list-inline-item"><a href="index.html">Home</a></li>
+          <li class="list-inline-item"><a href="autre.html">Services</a></li>
+          <li class="list-inline-item"><a href="autre.html">About</a></li>
+          <li class="list-inline-item"><a href="autre.html">Terms</a></li>
+          <li class="list-inline-item"><a href="autre.html">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">Kylian Anas Hamlaoui</p>
+  </footer>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="shortcut icon" href="img/nailyk.png" />
+    <link rel="stylesheet" href="css/knacss.min.css">
+    <link rel="stylesheet" href="css/indexSansGrid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">GIT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="github.html">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gitdesktop.html">GitHub Desktop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="git.html">Git</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+
+<body>
+<!-- Premier container avec Titre Page Lignes commandes-->
+<div class="card bg-light rounded">
+    <div class="card-header">
+      <h3 class="card-title text-center">Lignes de commandes GitHub</h3>
+    </div>
+</div>
+<!--Deuxieme container avec image github-->
+<div class = "container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <img src="image/git-logo.png" alt="Logo Github" height="300" lenght="500" class="img mx-auto d-block" >
+        </div>
+    </div>
+</div>
+<!--Troisième container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Tout d'abord, il ne faut pas oublier que le site de GitHub offre une explication à toutes ses commandes.
+        Pour cela, on utilisera les commandes suivantes, qui nous rameneront directement sur les pages web GitHub concernées.<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git help config </br>
+                    git help push</br>
+                    git help pull</br>
+                    git help branch</br>
+                </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+<!--4eme container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>L’une des commandes git les plus utilisées est git config. On l’utilise pour configurer les préférences de l’utilisateur : son mail, l’algorithme utilisé pour diff, le nom d’utilisateur et le format de fichier etc.<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git config </br>
+                </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+<!--5eme container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Ajouter un fichier:<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git add "nom fichier"
+                </p>
+                <div class="card bg-light rounded">
+                    <img src ="img/1730.png" alt="commit-exemple" class="img-fluid mx-auto d-block">
+                </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+<!--6eme container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Pour ajouter un fichier on utilisera:<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git commit -m "message"
+                </p>
+                <div class="card bg-light rounded">
+                    <img src ="img/Capture d’écran 2023-03-02 142343.png" alt="commit-exemple" class="img-fluid mx-auto d-block">
+                </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p></p>
+        </div>
+    </div>
+</div>
+
+
+<!--7eme container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Pour cloner un depot:<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git clone "repertoire" -b "branche"
+                </p>
+    </div>
+  </div>
+</div>
+
+
+<!--8eme container-->
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Pour créer la clé SSH:<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    ssh-keygen -t rsa -b 4096 -C "mail@example.com"
+                </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Pour push, c'est-à-dire rendre disponible les fichiers sur lesquelles on travaille.<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git push
+                </p>
+               
+    </div>
+  </div>
+</div>
+
+
+<div class="card bg-light rounded">
+    <div class="card-body">
+      <p>Pour pull, c'est à dire recuperer les fichiers qui ont été push par les autres.<br></p>
+        <div class="card bg-secondary rounded">
+            <div class="card-body">
+                <p>
+                    git pull
+                </p>
+               
+    </div>
+  </div>
+</div>
+<div class="footer-basic">
+    <div class="container text-center">
+    <footer>
+            <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="autre.html">Services</a></li>
+            <li class="list-inline-item"><a href="autre.html">About</a></li>
+            <li class="list-inline-item"><a href="autre.html">Terms</a></li>
+            <li class="list-inline-item"><a href="autre.html">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Kylian Anas Hamlaoui</p>
+    </footer>
+  </div>
+  </div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
